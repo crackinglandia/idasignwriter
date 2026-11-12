@@ -1,0 +1,18 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "SigWriter",
+    "entryPoint": "sigwriter_entry.py",
+    "version": "1.0.0",
+    "idaVersions": ["9.3", "9.4", "9.5"],
+    "description": "Genera patrones de codigo (IDA, x64dbg, C/C++, YARA, blob binario) a partir de la seleccion, con wildcards opcionales.",
+    "categories": ["api-scripting-and-automation"],
+    "keywords": ["signature", "pattern", "yara", "sigmaker"],
+    "authors": [
+      {
+        "name": "poxyrantab",
+        "email": "poxyrantab@gmail.com"
+      }
+    ]
+  }
+}

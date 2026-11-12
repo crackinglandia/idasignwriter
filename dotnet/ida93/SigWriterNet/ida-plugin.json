@@ -1,0 +1,18 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "SigWriterNet",
+    "entryPoint": "sigwriter_net_entry.py",
+    "version": "1.0.0",
+    "idaVersions": ["9.3", "9.4", "9.5"],
+    "description": "Genera patrones de bytecode .NET (CIL) a partir de la seleccion, con wildcards opcionales para tokens, saltos, switch, locals y constantes.",
+    "categories": ["api-scripting-and-automation"],
+    "keywords": ["signature", "pattern", "yara", "dotnet", "cil", "msil"],
+    "authors": [
+      {
+        "name": "poxyrantab",
+        "email": "poxyrantab@gmail.com"
+      }
+    ]
+  }
+}
